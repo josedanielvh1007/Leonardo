@@ -10,7 +10,9 @@ Legs on board drone
 
 ## Caminata
 ***Equilibrio estático:*** Control de equilibrio y estabilidad
+
 ***Movilidad híbrida:*** Caminata en superficies regulares e irregulares
+
 ***Funciones exploratorias:*** Navegación autónoma y adaptación a diferentes entornos
 ___
 ## Control de equilibrio y estabilidad
