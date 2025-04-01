@@ -3,7 +3,9 @@ Legs on board drone
 
 ## Vuelo
 ***Equilibrio estático:*** Control de equilibrio y estabilidad
+
 ***Movilidad híbrida:*** Capacidad de salto asistido por hélices, vuelo corto controlado y aterrizaje suave y controlado
+
 ***Funciones exploratorias:*** Capacidad de navegación autónoma y adaptación a diferentes entornos
 
 ## Caminata
