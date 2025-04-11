@@ -1,4 +1,5 @@
 from pymavlink import mavutil
+from cv2 import waitKey
 from time import sleep
 
 leo = mavutil.mavlink_connection('/dev/ttyAMA0', baud=57600) # Setup connection and wait for heartbeat
@@ -13,5 +14,11 @@ for i in range (1,4): # Tests connection by starting/stoping each motor
     leo.set_servo(i,1250)
     sleep(2)
     leo.set_servo(i,1000)
-mode_id = leo.mode_mapping().get('STABILIZE') # Sets mode to stabilize
-leo.set_mode(mode_id)
+mode_id = leo.mode_mapping().get('STABILIZE') 
+key = waitKey(1)
+if key == ord('s'): leo.set_mode(mode_id) # If 's' pressed, stabilize
+elif key == ord('q'): # If 'q' pressed, stop the motors
+    leo.set_mode_manual()
+    for i in range (1,4):
+        leo.set_servo(i,1000)
+    leo.arducopter_disarm()
