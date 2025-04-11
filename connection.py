@@ -22,7 +22,7 @@ def main(stdscr):
     time.sleep(2)
 
     # Test motors
-    for i in range(1, 4):
+    for i in range(1, 5):
         leo.set_servo(i, 1250)
         time.sleep(2)
         leo.set_servo(i, 1000)
