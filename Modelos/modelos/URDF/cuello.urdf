@@ -1,0 +1,23 @@
+<robot name="cuello">
+
+    <link name="main">
+        <inertial>
+            <origin xyz="0 0.01393 0"/>
+            <mass value="0.02135"/>
+            <inertia ixx="0.0003400262" ixy="0" ixz="0" iyy="0.0000028741" iyz="0" izz="0.0003409559"/>
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://modelos/DAE/cuello.DAE">
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="package://modelos/DAE/cuello.DAE">
+            </geometry>
+        </collision>
+    </link>
+
+</robot>

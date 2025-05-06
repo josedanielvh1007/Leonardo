@@ -1,0 +1,23 @@
+<robot name="articulacion_rotacional">
+    
+    <link name="main">
+        <inertial>
+            <origin xyz="0 0.00428 0" rpy="0 0 0"/>
+            <mass value="0.01291"/>
+            <inertia ixx="0.0000022554" ixy="0" ixz="0" iyy="8.6645E-7" iyz="0" izz="0.0000026541"/>
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://modelos/DAE/articulacion_rotacional.DAE"/>
+            </geometry>
+        </visual>
+        
+        <collision>
+            <geometry>
+                <mesh filename="package://modelos/DAE/articulacion_rotacional.DAE"/>
+            </geometry>
+        </collision>
+    </link>
+
+</robot>

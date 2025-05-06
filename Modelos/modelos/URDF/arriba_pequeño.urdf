@@ -1,0 +1,23 @@
+<robot name="arriba_pequeño">
+
+    <link name="main">
+        <inertial>
+            <origin xyz="0.0175 0 0" rpy="0 0 0"/>
+            <mass value="0.00275"/>
+            <inertia ixx="1.3965E-7" ixy="0" ixz="0" iyy="1.3965E-7" iyz="0" izz="3.436E-8"/>
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://modelos/DAE/arriba_pequeño.DAE"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="package://modelos/DAE/arriba_pequeño.DAE"/>
+            </geometry>
+        </collision>
+    </link>
+
+</robot>
