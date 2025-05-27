@@ -1,0 +1,23 @@
+<robot name="muslo222">
+
+    <link name="main">
+        <inertial>
+            <origin xyz="0.05459 -0.01855 0.04839" rpy="0 0 0"/>
+            <mass value="0.78438">
+            <inertia ixx="0.002979454" ixy="-0.0007977888" ixz="0.0019968223" iyy="0.0059238146" iyz="-0.0007044727" izz="0.0038028681"/>
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://modelos/DAE/muslo222.DAE"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="package://modelos/DAE/muslo222.DAE"/>
+            </geometry>
+        </collision>
+    </link>
+
+</robot>
