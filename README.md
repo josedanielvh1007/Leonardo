@@ -37,6 +37,9 @@ ___
 ## Adaptación a diferentes entornos
 ![image](https://github.com/user-attachments/assets/49ef4faa-cbd7-498f-acdd-829ff9bd80f0)
 
+## Diagrama conceptual
+![Leonardo - Esquemático v1 0](https://github.com/user-attachments/assets/3bb5d6c8-5347-46d1-a186-f9cba14a1458)
+
 ## Navegación autónoma
 {por realizar}
 
