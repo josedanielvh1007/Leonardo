@@ -22,11 +22,11 @@ message = np.empty((n1, n2, n3), dtype=object)
 def residuals(x, free_vars):
     f1, f2, f3 = free_vars
     # --- AQUI coloca tus 4 ecuaciones; ejemplo genérico:
-    # r0 = eq0(x, f1, f2, f3)
-    # r1 = eq1(x, f1, f2, f3)
-    # r2 = eq2(x, f1, f2, f3)
-    # r3 = eq3(x, f1, f2, f3)
-    # return np.array([r0, r1, r2, r3])
+    r0 = eq0(x, f1, f2, f3)
+    r1 = eq1(x, f1, f2, f3)
+    r2 = eq2(x, f1, f2, f3)
+    r3 = eq3(x, f1, f2, f3)
+    return np.array([r0, r1, r2, r3])
     raise NotImplementedError("Sustituye por tus ecuaciones")
 
 # --- 4) Sweep (ordenado para permitir warm starts) ---
